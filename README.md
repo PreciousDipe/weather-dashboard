@@ -22,7 +22,7 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
 - Timestamps all data for historical tracking
 
 ## Technical Architecture
-- **Language:** Python 3.x
+- **Language:** Python 3.12
 - **Cloud Provider:** AWS (S3)
 - **External API:** OpenWeather API
 - **Dependencies:** 
@@ -60,8 +60,7 @@ bashCopyaws configure
 5. Run the application:
 python src/weather_dashboard.py
 
-What I Learned
-
+**What I Learned**
 - Configuring an IAM user with proper permissions and setting up access keys for AWS CLI.
 - Installing and configuring AWS CLI to manage cloud resources directly from VS Code.
 - Managing environment variables securely by storing API keys in a `.env` file.
