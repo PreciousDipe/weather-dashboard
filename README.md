@@ -22,13 +22,7 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
 - Timestamps all data for historical tracking
 
 ## Technical Architecture
-- **Language:** Python 3.12
-- **Cloud Provider:** AWS (S3)
-- **External API:** OpenWeather API
-- **Dependencies:** 
-  - boto3 (AWS SDK)
-  - python-dotenv
-  - requests
+![Architecture Diagram](https://github.com/PreciousDipe/weather-dashboard/blob/main/src/weather_dashboard.drawio.png)
 
 ```markdown
 ## Project Structure
