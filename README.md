@@ -22,7 +22,7 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
 - Timestamps all data for historical tracking
 
 ## Technical Architecture
-![Architecture Diagram](https://github.com/PreciousDipe/weather-dashboard/blob/main/src/weather_dashboard.drawio.png)
+![Architecture Diagram](https://github.com/PreciousDipe/weather-dashboard/blob/main/src/weather-dashboard.drawio.png)
 
 ```markdown
 ## Project Structure
