@@ -62,12 +62,13 @@ python src/weather_dashboard.py
 
 What I Learned
 
-AWS S3 bucket creation and management
-Environment variable management for secure API keys
-Python best practices for API integration
-Git workflow for project development
-Error handling in distributed systems
-Cloud resource management
+- Configuring an IAM user with proper permissions and setting up access keys for AWS CLI.
+- Installing and configuring AWS CLI to manage cloud resources directly from VS Code.
+- Managing environment variables securely by storing API keys in a `.env` file.
+- Setting up Python virtual environments and installing dependencies with `requirements.txt`.
+- Working with OpenWeatherMap API by creating an account and integrating its API key.
+- Following Git workflows for forking, cloning, and managing projects in VS Code.
+- Running Python scripts efficiently and integrating external APIs into projects.
 
 Future Enhancements
 

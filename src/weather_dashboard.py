@@ -10,8 +10,8 @@ load_dotenv()
 
 class WeatherDashboard:
     def __init__(self):
-        self.api_key = os.getenv('OPENWEATHER_API_KEY')
-        self.bucket_name = os.getenv('AWS_BUCKET_NAME')
+        self.api_key = os.getenv('open_weather_api_key')
+        self.bucket_name = os.getenv('aws_bucket_name')
         self.s3_client = boto3.client('s3')
 
     def create_bucket_if_not_exists(self):
@@ -73,7 +73,7 @@ def main():
     # Create bucket if needed
     dashboard.create_bucket_if_not_exists()
     
-    cities = ["Philadelphia", "Seattle", "New York"]
+    cities = ["Lagos", "Abuja", "Ibadan"]
     
     for city in cities:
         print(f"\nFetching weather for {city}...")
