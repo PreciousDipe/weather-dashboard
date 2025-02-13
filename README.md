@@ -15,8 +15,8 @@ This application fetches real-time weather data for multiple cities, displays te
 - Managing environment variables securely by storing API keys in a `.env` file.
 - Setting up Python virtual environments and installing dependencies with `requirements.txt`.
 - Working with OpenWeatherMap API by creating an account and integrating its API key.
-- Following Git workflows for forking, cloning, and managing projects in VS Code.
-- Running Python scripts efficiently and integrating external APIs into projects.
+- Following Git workflows for forking, cloning, and managing projects in VS Code
+- Running Python scripts efficiently and integrating external APIs into projects
 
 ## Installation
 1. **Clone the repository**
